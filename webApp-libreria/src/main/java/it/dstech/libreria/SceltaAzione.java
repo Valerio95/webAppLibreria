@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
-@WebServlet( urlPatterns = {"/scegliAzione","/"})
+@WebServlet( urlPatterns = {"/scegliAzione"})
 public class SceltaAzione extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

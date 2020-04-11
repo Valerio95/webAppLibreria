@@ -10,8 +10,15 @@ private int id;
 private boolean attivo;
 List<Libro> libriPrenotati = new ArrayList<Libro>();
 List<Libro> libriAcquistati = new ArrayList<Libro>();
+private String image;
 
 
+public String getImage() {
+	return image;
+}
+public void setImage(String image) {
+	this.image = image;
+}
 public boolean isAttivo() {
 	return attivo;
 }

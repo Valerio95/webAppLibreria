@@ -1,0 +1,31 @@
+.bottomleft {
+  position: static;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.center {
+  position: static;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#00ff40;
+	color: #ffffff;
+}
